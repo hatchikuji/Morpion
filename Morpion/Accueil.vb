@@ -82,9 +82,9 @@ Public Class Accueil
                 End If
             ElseIf Gagner = True Then 'Dans le cas du joueur contre joueur
                 If Joueur Then 'La variable joueur fonctionne comme du tour par tour, quand le joueur 1 joue, joueur devient false puis j2 joue et joueur redevient true
-                    FinTextBox.Text = "Fin de partie, le joueur 2 a gagné"
+                    FinTextBox.Text = "Fin de partie, le joueur 2 a gagné !"
                 Else
-                    FinTextBox.Text = "Fin de partie, le joueur 1 a gagné"
+                    FinTextBox.Text = "Fin de partie, le joueur 1 a gagné !"
                 End If
             ElseIf (compteur = 9) And (Gagner = False) Then 'Match nul
                 FinTextBox.Text = "Fin de la partie, match nul"
